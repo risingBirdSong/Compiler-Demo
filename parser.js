@@ -29,6 +29,7 @@ const { PLUS } = require('./lexer.js');
 
 function parser(array) {
   const leftBranch = array[0];
+  //why are slicing at 2? to capture everything but the first element, should we slice with argument = 1?
   let rightBranch = array.slice(2);
   if (rightBranch.length > 1) {
     rightBranch = parser(rightBranch);
