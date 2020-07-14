@@ -24,7 +24,7 @@ function translator(array) {
       : fromNUMBER(element);
   });
   const innerString = translatedArray.join(' ');
-  return `(${innerString})`
+  return `(${innerString})`;
 }
 
 module.exports = translator;

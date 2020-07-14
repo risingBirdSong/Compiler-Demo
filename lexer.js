@@ -51,4 +51,8 @@ function lexer(inputString) {
   return output;
 }
 
+// console.log(lexer('1 + 2 + 3 + 4'));
+//results in [ 'NUMBER1','PLUS','NUMBER2','PLUS','NUMBER3','PLUS','NUMBER4']
+// as expected
+
 module.exports = { PLUS, lexer };
