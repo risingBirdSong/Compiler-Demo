@@ -1,3 +1,5 @@
+"use strict";
+
 const compile = require('./compile.js');
 
 function testCompiler(input, expected) {

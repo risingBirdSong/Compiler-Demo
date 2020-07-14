@@ -1,3 +1,4 @@
+'use strict';
 /*
 The parser will take an array from the lexer and translate it into a tree data structure.
 This is known as an 'Abstract Syntax Tree' (AST).

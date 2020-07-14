@@ -1,3 +1,4 @@
+"use strict";
 /*
 The translation step can also be very complex in real compilers.
 However in our compiler it's extremly simple since our output is Lisp.

@@ -1,3 +1,4 @@
+'use strict';
 /*
 The optimization step is usually the most complex step of a compiler
 It generally consists of a lot of transformations on the AST to make the output code more optimized.

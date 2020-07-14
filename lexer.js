@@ -1,9 +1,12 @@
+'use strict';
 /*
 Break the input string up into meaningful words
 Our language only understands integer addition, so the words represent either a number or '+'.
 These words will be used to do logic on the output throughout the rest of the compiler:
 
 1 + 2 -> ['NUMBER1', 'PLUS', 'NUMBER2]
+
+question - how does it make it easier to modify the syntax?
 
 It may seem like overkill to not just use '+' and numbers, and for a langauge this simple it is.
 But doing it this way means it's a lot easier to modify the syntax of our language.

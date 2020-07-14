@@ -1,3 +1,4 @@
+'use strict';
 const { lexer } = require('./lexer.js')
 const parser = require('./parser.js')
 const optimizer = require('./optimizer.js')
@@ -8,7 +9,7 @@ function compile(inputString) {
 
   const lexed = lexer(inputString);
   console.log('lexer output:', lexed);
-  
+
   const parsed = parser(lexed);
   console.log('parser output:', parsed);
 
